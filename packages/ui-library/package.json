@@ -1,0 +1,30 @@
+{
+  "name": "ui-library",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Rahu-shingade <rahulshingade225.gmail.com>",
+  "homepage": "https://github.com/Rahul-shingade/Skillup_demo#readme",
+  "license": "ISC",
+  "main": "lib/ui-library.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rahul-shingade/Skillup_demo.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "node ./__tests__/ui-library.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/Rahul-shingade/Skillup_demo/issues"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}
